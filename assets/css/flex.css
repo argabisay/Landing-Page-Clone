@@ -1,0 +1,23 @@
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.d-flex-spacebetween {
+  justify-content: space-between;
+}
+.d-flex-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+
+.col-12 {
+  width: 100%;
+}
+.col-6 {
+  width: calc(100% / 12 * 6);
+}

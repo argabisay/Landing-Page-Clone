@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+html {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #111111;
+}
+header i {
+  font-size: 30px;
+}
+img.head-logo {
+  width: 80px;
+  height: 45px;
+}
+.hide {
+  display: none;
+}
+.fonts {
+  font-family: "Space Mono", monospace;
+  color: #293a7d;
+  font-weight: 700;
+}
+h1.fonts {
+  font-size: 24px;
+  line-height: 50px;
+  margin-bottom: 1.5rem;
+}
+h2.fonts {
+  font-size: 24px;
+  line-height: 48px;
+}
+h3.fonts {
+  font-size: 19px;
+  line-height: 32px;
+}
+p {
+  font-weight: bold;
+}
+#hero {
+  height: 60vh;
+  width: 100vw;
+  background: url(../img/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-padding {
+  padding: 0.8rem;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container-padding {
+  padding: 1rem;
+}
+.col-padding {
+  padding: 0.5rem 1rem;
+}
+.gray {
+  background: #f4f4f4;
+}
+#graduates img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#graduates a i {
+  font-size: 25px;
+  color: #293a7d;
+  padding: 0.3rem;
+}
+#sponsors h2 {
+  margin: 4rem 0 3rem;
+}
+#sponsors a {
+  width: 80%;
+  margin: 0 auto;
+}
+#sponsors img {
+  /* height: 3vh;
+  max-width: calc(100vw / 12 * 12 - 2rem); */
+  text-align: center;
+  width: 100%;
+  padding: 0 0.5rem;
+}
+#sponsors .d-flex img {
+  width: 148px;
+  height: 74px;
+}
+
+#stories span {
+  font-weight: bolder;
+}
+#stories h2 {
+  margin: 2rem 0;
+}
+#stories p {
+  padding-bottom: 1rem;
+}
+iframe {
+  width: calc(100vw - 1rem);
+  /* height: 52vh; */
+}
+
+#footer,
+#footer a,
+#footer i,
+#footer p {
+  background-color: #293a7d;
+  color: white;
+  padding: 0.2rem;
+}
+#footer p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 0.2rem;
+}
+#footer ul li {
+  display: inline;
+}
